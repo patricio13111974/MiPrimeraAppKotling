@@ -8,13 +8,13 @@ fun main(){
     cholito.sayHello()
 }
 
-open class Dog{
+open class dog{
     open fun sayHello(){
         println("Wow wow")
     }
 }
 
-class Yorkshire : Dog() {
+class Yorkshire : dog() {
     override fun sayHello() {
         println("Wif wif")
     }
