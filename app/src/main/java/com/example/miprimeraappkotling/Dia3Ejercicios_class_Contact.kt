@@ -9,5 +9,5 @@ fun main(){
 }
 
 class Contact(val id: Int, var email:String)
-class Persona(val name:String, val apellido:String)
+class Personas(var name:String, val apellido:String)
 
