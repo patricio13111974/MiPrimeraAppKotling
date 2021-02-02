@@ -1,7 +1,13 @@
 package com.example.miprimeraappkotling
 
 //2. crear clase
-data class Librosescolares (var nombre: String, var isbn: String, var numpag: Int, var precio: Int, var autor: String, var tipo: Char)
+data class Librosescolares
+(var nombre: String,
+ var isbn: String,
+ var numpag: Int,
+ var precio: Int,
+ var autor: String,
+ var tipo: Char)
 
 
 //3. crear funcion precioformateado
